@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color:#5f2c82;
+    position: relative;
+    font-family: courier;
+}
+main{
+    width: 252px;
+    height:510px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+
+    transform: translate(-50%, 10%);
+    background-color:white;
+    box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.315);
+}
+#img{
+    background: url(/img/img-ghost1.png) no-repeat center center;
+    width: 100%;
+    height: 167px;
+    padding: 10px;
+    background-size: contain;
+}
+#form h1{
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: bold;
+}
+#form p{
+    font-size: .8em;
+    margin-top: 4px;
+}
+form > input[type=submit]{
+    display: block;
+    width: 90%;
+    margin: auto;
+    color: white;
+    height: 40px;
+    background-color:  #49a09d;
+    border: none;
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
+form > input[type=submit]:hover{
+    background-color: #3b817f;
+}
+div.campo > input:focus-within {
+    background-color: white;
+    border: none;}
+.botao{
+    display: block;
+    width: 90%;
+    margin: auto;
+    border: 2px solid #49a09d;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 5px;
+    color: #214947;
+    text-decoration: none;
+}
+.botao:hover{
+    background-color: #5aa19f;
+    
+}
+.campo{
+    background-color: #5f2c82;
+    border: 2px solid #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+    position: relative;
+}
+.campo i{
+    color: white;
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+}
+.campo > input {
+    position: absolute;
+    
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(84% - 0px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-0px);
+}
