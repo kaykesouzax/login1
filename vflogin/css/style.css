@@ -9,6 +9,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    position: relative;
 }
 
 html, body{
@@ -17,16 +18,16 @@ html, body{
     font-family: courier;
 }
 main{
-    width: 252px;
-    height:510px;
     position: absolute;
-    top: 50%;
+    width: 252px;
+    height:470px;
+    top: 15vw;
     left: 50%;
     border-radius: 10px;
 
     background-color:white;
     box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.315);
-    transform: translate(-50%, 25%);
+    transform: translate(-50%);
 }
 #img{
     background: url(/img/img-ghost1.png) no-repeat center center;
