@@ -26,7 +26,7 @@ main{
 
     background-color:white;
     box-shadow: 1px 2px 5px 3px rgba(0, 0, 0, 0.315);
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, 25%);
 }
 #img{
     background: url(/img/img-ghost1.png) no-repeat center center;
